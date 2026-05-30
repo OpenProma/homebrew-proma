@@ -7,7 +7,7 @@ This tap installs Proma from the official GitHub releases.
 If this repository is published as `ErlichLiu/homebrew-proma`:
 
 ```sh
-brew tap ErlichLiu/proma
+brew tap OpenProma/proma
 brew install --cask proma
 ```
 
