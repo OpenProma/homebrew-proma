@@ -1,10 +1,6 @@
-# Homebrew Tap for Proma
-
-This tap installs Proma from the official GitHub releases.
 
 ## Install
 
-If this repository is published as `ErlichLiu/homebrew-proma`:
 
 ```sh
 brew tap OpenProma/proma
@@ -14,15 +10,9 @@ brew install --cask proma
 Or install with the fully qualified cask name:
 
 ```sh
-brew install --cask ErlichLiu/proma/proma
+brew install --cask OpenProma/proma
 ```
 
-## Repository Layout
-
-```text
-Casks/
-  proma.rb
-```
 
 ## Updating
 
@@ -36,5 +26,3 @@ When a new Proma release is published:
 brew audit --cask --new Casks/proma.rb
 brew install --cask --verbose Casks/proma.rb
 ```
-
-For a GitHub tap, Homebrew expects a repository named with the `homebrew-` prefix. For example, `ErlichLiu/homebrew-proma` is tapped as `ErlichLiu/proma`.
